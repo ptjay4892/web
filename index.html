@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 จุดเช็คอินลพบุรี</title>
+    <link rel="icon" type="image/png" href="images/LOGO2.png">
+
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>  
+    <header>
+        <img src="images/LOGO.png" alt="เที่ยวลพบุรี">
+    </header>
+
+    <nav>
+        <a href="#home"><b>หน้าเเรก</b></a>
+        <a href="#place">ที่เที่ยว</a>
+        <a href="#cafe">คาเฟ่ ร้านอาหาร</a>
+        <a href="#contact">ติดต่อเรา</a>
+    </nav>
+
+    <section class="home" id="home">
+        <h2><span class="text1">อยากเที่ยวไหน</span><span class="text2">ในลพบุรี?</span></h2>
+       <!-- <div class="box-search">
+            <form method="get" action="">
+                <div class="group-search">
+                    <input name="search" type="text" placeholder="ค้นหาที่เที่ยว ค่าเฟ่ ร้านอาหาร ที่พัก" autocomplete="off">
+                    <button type="submit" class="icon-search">
+                        <img src="PIC/S.png" alt="search">
+                    </button>
+                </div>
+            </form>
+        </div>-->
+        <img src="https://www.chillpainai.com/src/wewakeup/scoop/images/f4d9d079bd7588ad27d947eb4fdf90ac5e0aed67.jpg" class="img-center">
+    </section>
+
+    <section id="place">
+       <div class="place-title">
+            <h2><strong>สถานที่ท่องเที่ยว</strong></h2>
+       </div>
+         <div class="place-content">
+                <div class="place-item">
+                    <img src="images/phra-prang-sam-yot.jpg" alt="สถานที่ท่องเที่ยว 1">
+                    <h3 class="place-title2"><strong>พระปรางค์สามยอด</strong></h3>
+                    <p>เป็นโบราณสถานที่สำคัญของจังหวัดลพบุรี มีความสวยงามและเป็นเอกลักษณ์</p>
+                    <button data-type="place" data-idx="0">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/OIP.webp" alt="สถานที่ท่องเที่ยว 2">
+                    <h3 class="place-title2"><strong>วัดพระศรีรัตนมหาธาตุ</strong></h3>
+                    <p>วัดที่มีความสำคัญทางประวัติศาสตร์และศิลปะ มีพระปรางค์สูงเด่นตั้งตระหง่านกลางแม่น้ำนายน์</p>
+                    <button data-type="place" data-idx="1">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/OIP.jpg" alt="สถานที่ท่องเที่ยว 3">
+                    <h3 class="place-title2"><strong>สวนทานตะวันเขาจีนแล</strong></h3>
+                    <p>ทุ่งทานตะวันกว้างใหญ่ เหมาะกับการถ่ายรูปและชมวิวธรรมชาติ</p>
+                    <button data-type="place" data-idx="2">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/OIP-1.jpg" alt="สถานที่ท่องเที่ยว 4">
+                    <h3 class="place-title2"><strong>พระนารายณ์ราชนิเวศน์</strong></h3>
+                    <p>พระราชวังโบราณที่มีความสำคัญทางประวัติศาสตร์และสถาปัตยกรรม</p>
+                    <button data-type="place" data-idx="3">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/asfdfghj.jpg" alt="สถานที่ท่องเที่ยว 5">
+                    <h3 class="place-title2"><strong>วัดเชิงท่า</strong></h3>
+                    <p>วัดเก่าแก่ริมแม่น้ำลพบุรี บรรยากาศร่มรื่น</p>
+                    <button data-type="place" data-idx="4">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/OIP-5.jpg" alt="สถานที่ท่องเที่ยว 6">
+                    <h3 class="place-title2"><strong>เขาวงพระจันทร์</strong></h3>
+                    <p>ภูเขาศักดิ์สิทธิ์ มีบันไดขึ้นยอดเขาและวิวสวยงาม</p>
+                    <button data-type="place" data-idx="5">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/rwerhtuj.jpg" alt="สถานที่ท่องเที่ยว 7">
+                    <h3 class="place-title2"><strong>บ้านวิชาเยนทร์</strong></h3>
+                    <p>บ้านเก่าแก่สมัยอยุธยา สถานที่สำคัญทางประวัติศาสตร์</p>
+                    <button data-type="place" data-idx="6">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/afeshdf.jpg" alt="สถานที่ท่องเที่ยว 8">
+                    <h3 class="place-title2"><strong>วัดพระบาทน้ำพุ</strong></h3>
+                    <p>วัดที่มีชื่อเสียงด้านการช่วยเหลือผู้ป่วยและผู้ยากไร้</p>
+                    <button data-type="place" data-idx="7">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/maket-2.jpg" alt="สถานที่ท่องเที่ยว 9">
+                    <h3 class="place-title2"><strong>ตลาดโบราณบ้านซ่ง</strong></h3>
+                    <p>ตลาดย้อนยุคบรรยากาศไทยโบราณ เหมาะกับการเดินเล่นและชิมอาหาร</p>
+                    <button data-type="place" data-idx="8">รายละเอียด</button>
+                </div>
+                <div class="place-item">
+                    <img src="images/OIP-2.jpg" alt="สถานที่ท่องเที่ยว 10">
+                    <h3 class="place-title2"><strong>อ่างซับเหล็ก</strong></h3>
+                    <p>อ่างเก็บน้ำขนาดใหญ่ เหมาะกับการพักผ่อนและปิกนิก</p>
+                    <button data-type="place" data-idx="9">รายละเอียด</button>
+                </div>
+        </div>
+    </section>
+
+    <div id="place-popup-bg" class="place-popup-bg" style="display:none;">
+      <div class="place-popup" id="place-popup">
+        <button class="close-btn" onclick="closePlacePopup()">×</button>
+        <img id="popup-img" src="" alt="popup-img">
+        <h2 id="popup-title"></h2>
+        <p id="popup-desc"></p>
+      </div>
+    </div>
+
+    <script>
+      
+      const placeData = [
+        {
+          img: "images/phra-prang-sam-yot.jpg",
+          title: 'พระปรางค์สามยอด',
+          desc: 'เป็นโบราณสถานที่สำคัญของจังหวัดลพบุรี มีความสวยงามและเป็นเอกลักษณ์'
+        },
+        {
+          img: "images/OIP.webp",
+          title: 'วัดพระศรีรัตนมหาธาตุ',
+          desc: 'วัดที่มีความสำคัญทางประวัติศาสตร์และศิลปะ มีพระปรางค์สูงเด่นตั้งตระหง่านกลางแม่น้ำนายน์'
+        },
+        {
+          img: "images/OIP.jpg",
+          title: 'สวนทานตะวันเขาจีนแล',
+          desc: 'ทุ่งทานตะวันกว้างใหญ่ เหมาะกับการถ่ายรูปและชมวิวธรรมชาติ'
+        },
+        {
+          img: "images/OIP-1.jpg",
+          title: 'พระนารายณ์ราชนิเวศน์',
+          desc: 'พระราชวังโบราณที่มีความสำคัญทางประวัติศาสตร์และสถาปัตยกรรม'
+        },
+        {
+          img: "images/asfdfghj.jpg",
+          title: 'วัดเชิงท่า',
+          desc: 'วัดเก่าแก่ริมแม่น้ำลพบุรี บรรยากาศร่มรื่น'
+        },
+        {
+          img: "images/OIP-5.jpg",
+          title: 'เขาวงพระจันทร์',
+          desc: 'ภูเขาศักดิ์สิทธิ์ มีบันไดขึ้นยอดเขาและวิวสวยงาม'
+        },
+        {
+          img: "images/rwerhtuj.jpg",
+          title: 'บ้านวิชาเยนทร์',
+          desc: 'บ้านเก่าแก่สมัยอยุธยา สถานที่สำคัญทางประวัติศาสตร์'
+        },
+        {
+          img: "images/afeshdf.jpg",
+          title: 'วัดพระบาทน้ำพุ',
+          desc: 'วัดที่มีชื่อเสียงด้านการช่วยเหลือผู้ป่วยและผู้ยากไร้'
+        },
+        {
+          img: "images/maket-2.jpg",
+          title: 'ตลาดโบราณบ้านซ่ง',
+          desc: 'ตลาดย้อนยุคบรรยากาศไทยโบราณ เหมาะกับการเดินเล่นและชิมอาหาร'
+        },
+        {
+          img: "images/OIP-2.jpg",
+          title: 'อ่างซับเหล็ก',
+          desc: 'อ่างเก็บน้ำขนาดใหญ่ เหมาะกับการพักผ่อนและปิกนิก'
+        }
+      ];
+
+      const cafeData = [
+      {
+        img: "images/PAUSECafe-2.jpg",
+        title: "PAUSE Cafe",
+        desc: "คาเฟ่สไตล์โมเดิร์นแบบ Glass House..."
+      },
+      {
+        img: "images/OIP-4.jpg",
+        title: "Anacolly Cafe & Bistro",
+        desc: "คาเฟ่สไตล์สวนอังกฤษ วิวภูเขาสวยๆ..."
+      },
+      {
+        img: "images/OIP-3.jpg",
+        title: "Desktop",
+        desc: "คาเฟ่ดัง ในเมืองลพบุรี มีมุมถ่ายรูปดีมาก..."
+      }
+    ];
+
+      // ใส่ event ให้ปุ่มรายละเอียด เฉพาะส่วน #place เท่านั้น
+      document.addEventListener('DOMContentLoaded', function() {
+        const btns = document.querySelectorAll('#place .place-item button');
+        btns.forEach((btn, idx) => {
+          btn.onclick = () => openPlacePopup(idx);
+        });
+      });
+
+      function openPlacePopup(type, idx) {
+  const data = (type === "place" ? placeData[idx] : cafeData[idx]);
+  document.getElementById("popup-img").src = data.img;
+  document.getElementById("popup-title").textContent = data.title;
+  document.getElementById("popup-desc").textContent = data.desc;
+  document.getElementById("place-popup-bg").style.display = "flex";
+}
+
+function closePlacePopup() {
+  document.getElementById("place-popup-bg").style.display = "none";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("button[data-type]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      openPlacePopup(btn.dataset.type, btn.dataset.idx);
+    });
+  });
+});
+
+document.getElementById("place-popup-bg").addEventListener("click", function(e) {
+  if (e.target === this) closePlacePopup();
+});
+
+    </script>
+    <section id="cafe" class="place-title16">
+      <div class="place-title12">
+           <h2><strong>คาเฟ่ ร้านอาหาร</strong></h2>
+      </div>
+        <div class="place-content12">
+               <div class="place-item">
+                   <img src="images/PAUSECafe-2.jpg" alt="สถานที่ท่องเที่ยว 1">
+                   <h3 class="place-title3"><strong>PAUSE Cafe</strong></h3>
+                   <p>คาเฟ่สไตล์โมเดิร์นแบบ Glass House หลังคาจั่วท่ามกลางบรรยากาศกลางทุ่งโล่ง พร้อมวิวของภูเขาและทุ่งปอเทืองอันสวยงาม</p>
+                   <button data-type="cafe" data-idx="0">รายละเอียด</button>
+               </div>
+               <div class="place-item">
+                   <img src="images/OIP-4.jpg" alt="สถานที่ท่องเที่ยว 2">
+                   <h3 class="place-title3"><strong>Anacolly Cafe & Bistro</strong></h3>
+                   <p>คาเฟ่สไตล์สวนอังกฤษ วิวภูเขาสวยๆ บรรยากาศร่มรื่น</p>
+                   <button data-type="cafe" data-idx="1">รายละเอียด</button>
+               </div>
+               <div class="place-item">
+                   <img src="images/OIP-3.jpg" alt="สถานที่ท่องเที่ยว 3">
+                   <h3 class="place-title3"><strong>Desktop</strong></h3>
+                   <p>คาเฟ่ดัง ในเมืองลพบุรี มีมุมถ่ายรูปดีมาก การตกแต่งร้านเป็นคาเฟ่สไตล์ลอฟท์ เท่ๆ มีความเรียบหรู มินิมอล จิบกาแฟชิลๆ</p>
+                   <button data-type="cafe" data-idx="2">รายละเอียด</button>
+               </div>
+        </div>
+    </section>
+    <div id="contact" class="text34">
+      <h3 class="text32">LINE ID : +66 62-501-6582 / TEL : +66 62-501-6582</h3>
+      <h3 class="text32">จัดทำโดย ธนวัฒน์ ริ้วผดุงพันธ์ / อาจารย์ บัว คำอ่อง / วิทยาลัยเทคนิคลพบุรี</h3>
+      <img src="images/LOGO.png" alt="LOGO" class="img3">
+    </div>
+  </body>
+</html>
